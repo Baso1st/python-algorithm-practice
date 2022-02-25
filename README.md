@@ -1,2 +1,4 @@
 # python-algorithm-practice
-Practicing building some popular algorithms in python
+The project is to practice building some popular algorithms in python.
+
+
