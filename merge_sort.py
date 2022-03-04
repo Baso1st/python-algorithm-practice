@@ -10,6 +10,10 @@ def merge_sort(list:list):
     merge_sort(L)
     merge_sort(R)
 
+    merge_halves(list, L, R)
+
+
+def merge_halves(list, L, R):
     i = j = k = 0
 
     while i < len(L) and j < len(R):

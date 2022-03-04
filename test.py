@@ -1,6 +1,4 @@
-import random
 import time
-import sys
 from bubble_sort import bubble_sort
 from insertion_sort import insertion_sort
 from merge_sort import merge_sort
@@ -26,20 +24,20 @@ from quick_sort import quick_sort
 # print('insertion: ' + str(end - start) + '----' + str(list == sorted(list)))
 
 
-# list = [*range(10000, 0, -1)]
-# start = time.time()
-# merge_sort(list)
-# end = time.time()
+list = [*range(10000, 0, -1)]
+start = time.time()
+merge_sort(list)
+end = time.time()
 
-# print('merge: ' + str(end - start) + '----' + str(list == sorted(list)))
+print('merge: ' + str(end - start) + '----' + str(list == sorted(list)))
 
 
-# list = [*range(10000, 0, -1)]
-# start = time.time()
-# quick_sort(list, 0, len(list) - 1)
-# end = time.time()
+list = [*range(10000, 0, -1)]
+start = time.time()
+quick_sort(list)
+end = time.time()
 
-# print('quick: ' + str(end - start) + '----' + str(list == sorted(list)))
+print('quick: ' + str(end - start) + '----' + str(list == sorted(list)))
 
 ############################ case 2 ###########################
 
@@ -80,14 +78,14 @@ from quick_sort import quick_sort
 # list =  list1 + list2
 
 # start = time.time()
-# quick_sort(list, 0, len(list) - 1)
+# quick_sort(list)
 # end = time.time()
 
 # print('quick: ' + str(end - start) + '----' + str(list == sorted(list)))
 
 ############################ case 3 ###########################
 
-list = [4, 3, 2, 1, 9, 7, 6]
-quick_sort(list, 0, len(list) - 1)
-print(list)
-print(str(list == sorted(list)))
+# list = [4, 8, 3, 5, 9, 2, 1]
+# quick_sort(list)
+# print(list)
+# print(str(list == sorted(list)))
