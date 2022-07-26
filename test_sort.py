@@ -16,7 +16,7 @@ from quick_sort import quick_sort
 
 # print('bubble: ' + str(end - start) + '----' + str(list == sorted(list)))
 
-# list = [*range(10000, 0, -1)]
+# list = [*range(1000000, 0, -1)]
 # start = time.time()
 # insertion_sort(list)
 # end = time.time()
@@ -24,7 +24,7 @@ from quick_sort import quick_sort
 # print('insertion: ' + str(end - start) + '----' + str(list == sorted(list)))
 
 
-list = [*range(10000000, 0, -1)]
+list = [*range(1000000, 0, -1)]
 start = time.time()
 merge_sort(list)
 end = time.time()
@@ -32,7 +32,7 @@ end = time.time()
 print('merge: ' + str(end - start) + '----' + str(list == sorted(list)))
 
 
-list = [*range(10000000, 0, -1)]
+list = [*range(1000000, 0, -1)]
 start = time.time()
 quick_sort(list)
 end = time.time()
